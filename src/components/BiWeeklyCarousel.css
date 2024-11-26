@@ -1,0 +1,48 @@
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.update-card {
+    font-family: 'ChineseRocks', sans-serif;
+    font-size: 2.5em;
+    background-color: #0B0A45; /* Customize as needed */
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.content-container {
+    font-family: 'ChineseRocks', sans-serif;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between image and text */
+}
+
+.update-image {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 5px;
+}
+
+.arrow {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.left-arrow {
+    margin-right: 10px;
+}
+
+.right-arrow {
+    margin-left: 10px;
+}

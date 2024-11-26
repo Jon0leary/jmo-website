@@ -1,0 +1,170 @@
+/* Main Container */
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.name-section {
+  display: flex;
+  font-family: 'FloridaVibes', sans-serif;
+  color: white;
+  text-shadow: 
+      -2px -2px 0 #0B0A45,
+       2px -2px 0 #0B0A45,
+      -2px  2px 0 #0B0A45,
+       2px  2px 0 #0B0A45,
+      -3px  0px 0 #0B0A45,
+       3px  0px 0 #0B0A45,
+       0px -3px 0 #0B0A45,
+       0px  3px 0 #0B0A45;
+  font-weight: bold;
+  font-size: 7.5em; /* Larger font size for "Welcome!" */
+  text-align: center;
+  margin-top: -200px;
+  margin-bottom: -10px;
+}
+
+/* Flexbox layout for main content */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px; /* Adjust based on your layout */
+  margin-top: -100px;
+}
+
+/* Left Section for Portrait and Buttons */
+.left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 300px;
+}
+
+.self-portrait {
+  border: 5px solid white;
+  text-align: center;
+  background-color: #1B467B;
+  color: white;
+  margin-top: 60px;
+}
+
+/* Social Buttons */
+.social-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.linkedin-button-portfolio{
+  border: 5px solid white;
+  margin-top: 30px;
+  font-family: 'ChineseRocks', sans-serif;
+  font-size: 2.5em;
+  background-color: #1B467B;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  flex-direction: row-reverse;
+}
+.github-button-portfolio {
+  border: 5px solid white;
+  margin-top: 30px;
+  font-family: 'ChineseRocks', sans-serif;
+  font-size: 2.5em;
+  background-color: #1B467B;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  flex-direction: row-reverse;
+}
+
+.linkedin-button-portfolio .icon {
+  width: 30px; /* Adjust size as needed */
+  height: 30px;
+  margin-left: 12px; /* Space between text and icon */
+  
+}
+
+.github-button-portfolio .icon {
+  width: 30px; /* Adjust size as needed */
+  height: 30px;
+  margin-left: 30px; /* Space between text and icon */
+}
+
+.linkedin-button-portfolio:hover,
+.github-button-portfolio:hover {
+  background-color: #1B467B;
+}
+
+/* Resume Section */
+.resume-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 20px;
+  font-family: 'FloridaVibes', sans-serif;
+  color: white;
+  text-shadow: 
+      -2px -2px 0 #0B0A45,
+       2px -2px 0 #0B0A45,
+      -2px  2px 0 #0B0A45,
+       2px  2px 0 #0B0A45,
+      -3px  0px 0 #0B0A45,
+       3px  0px 0 #0B0A45,
+       0px -3px 0 #0B0A45,
+       0px  3px 0 #0B0A45;
+  font-weight: bold;
+  font-size: 3.5em; /* Larger font size for "Welcome!" */
+  text-align: center;
+  margin-top: -130px;
+  margin-bottom: -10px;
+}
+
+.resume-content {
+  border: 15px solid #0B0A45;
+  margin-top: -50px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color:  #1B467B; /* Adjust color as needed */
+}
+
+.resume-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* About Me Section */
+.about-me {
+  font-family: 'FloridaVibes', sans-serif;
+  color: white;
+  text-shadow: 
+      -2px -2px 0 #0B0A45,
+       2px -2px 0 #0B0A45,
+      -2px  2px 0 #0B0A45,
+       2px  2px 0 #0B0A45,
+      -3px  0px 0 #0B0A45,
+       3px  0px 0 #0B0A45,
+       0px -3px 0 #0B0A45,
+       0px  3px 0 #0B0A45;
+  font-weight: bold;
+  font-size: 2.5em; /* Larger font size for "Welcome!" */
+  text-align: center;
+  margin-top: -40px;
+}
+
+.about-me h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  font-size: 1.1em;
+  color: #333;
+}

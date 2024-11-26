@@ -1,0 +1,25 @@
+/* src/fonts/fonts.css */
+@font-face {
+  font-family: 'BhinekaScript';
+  src: url('./BhinekaScript-Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ChineseRocks';
+  src: url('./chinese\ rocks\ rg.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FloridaVibes';
+  src: url('./Florida\ Vibes\ by\ Turbologo.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NoContinue';
+  src: url('./gomarice_no_continue.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'YoureGone';
+  src: url('./Youre\ Gone\ It.otf') format('truetype');
+}

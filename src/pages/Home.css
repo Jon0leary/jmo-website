@@ -1,0 +1,188 @@
+.main-container {
+  font-family: Arial, sans-serif;
+}
+
+.outlined-text-large {
+  font-family: 'FloridaVibes', sans-serif;
+  color: white;
+  text-shadow: 
+      -2px -2px 0 #0B0A45,
+        2px -2px 0 #0B0A45,
+      -2px  2px 0 #0B0A45,
+        2px  2px 0 #0B0A45,
+      -3px  0px 0 #0B0A45,
+        3px  0px 0 #0B0A45,
+        0px -3px 0 #0B0A45,
+        0px  3px 0 #0B0A45;
+  font-weight: bold;
+  font-size: 3.5em; /* Larger font size for "Welcome!" */
+}
+
+.outlined-text-small {
+    font-family: 'FloridaVibes', sans-serif;
+    color: white;
+    text-shadow: 
+        -2px -2px 0 #0B0A45,
+         2px -2px 0 #0B0A45,
+        -2px  2px 0 #0B0A45,
+         2px  2px 0 #0B0A45;
+    font-weight: bold;
+    font-size: 1.5em; /* Smaller font size for subtitle */
+}
+  
+.welcome-section {
+  text-align: center;
+  margin-top:-220px;
+  font-size: 4.0em; 
+}
+  
+.welcome-section h1 {
+
+  font-weight: bold;
+  margin-bottom: -120px;
+}
+  
+.welcome-section p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+
+.bi-weekly-content {
+    flex: 1;
+    margin-left: 20px; /* Add space between the portrait and text */
+}
+
+.self-portrait {
+  border: 2px dashed white;
+  padding: 20px; /* Adjust padding as needed */
+  background-color: #006f91;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 300px; /* Restrict the width */
+  height: auto;
+  box-sizing: border-box; /* Ensure padding is included in the width calculation */
+}
+
+.portrait-image {
+  max-width: 100%; /* Makes sure the image never exceeds the width of its container */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Ensures the image behaves like a block-level element */
+  margin: 0 auto; /* Centers the image horizontally */
+  border-radius: 50%; /* Optional: circular image */
+}
+
+.contact-section {
+  font-family: 'FloridaVibes', sans-serif;
+  color: white;
+  text-shadow: 
+      -2px -2px 0 #0B0A45,
+        2px -2px 0 #0B0A45,
+      -2px  2px 0 #0B0A45,
+        2px  2px 0 #0B0A45;
+  font-weight: bold;
+  font-size: 3.5em; /* Smaller font size for subtitle */
+  margin-top: -90px;
+  text-align: center;
+}
+  
+.contact-section h3 {
+  font-size: 1.5em;
+  margin-bottom: -70px;
+}
+
+.contact-section p {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  text-decoration: underline;
+}
+  
+.linkedin-button-home {
+  font-family: 'ChineseRocks', sans-serif;
+  font-size: 0.5em;
+  background-color: #0077b5;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  flex-direction: row-reverse;
+}
+
+.linkedin-button-home .icon {
+  width: 30px; /* Adjust size as needed */
+  height: 30px;
+  margin-left: 12px; /* Space between text and icon */
+}
+
+.linkedin-button-home:hover {
+  background-color: #005f86;
+}
+
+.timeline {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.timeline-item {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline-item:nth-child(even) {
+  left: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -10px;
+  background-color: black;
+  border-radius: 50%;
+  top: 15px;
+}
+
+.timeline-item:nth-child(even) .timeline-dot {
+  left: -10px;
+  right: auto;
+}
+
+.timeline-content {
+  padding: 20px;
+  background-color: #006f91;
+  color: white;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.timeline h3 {
+  margin-top: 0;
+}
+
+.timeline p {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .timeline-item {
+    width: 100%;
+    left: 0;
+    transform: none;
+  }
+
+  .timeline-item:nth-child(even) {
+    left: 0;
+  }
+
+  .timeline-dot {
+    left: -10px;
+  }
+}
